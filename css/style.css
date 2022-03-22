@@ -1,0 +1,109 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+
+
+.main-color{
+    background: linear-gradient(rgb(87, 82, 82), rgb(8, 7, 7));
+}
+
+
+.img-banner{
+   max-width: 100%;
+   object-fit: cover;
+   min-height: 360px;
+   max-height: 523px;
+   filter: brightness(0.5);
+}
+
+.img-banner-2{
+    max-width: 100%;
+    object-fit: cover;
+    min-height: 360px;
+    filter: brightness(0.9);
+}
+
+.title-banner{
+    color: #e6ac00;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.description-banner{
+    color: #e6ac00;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 90px rgb(0, 0, 0);
+}
+
+#link:hover{
+    color: #e6ac00;
+}
+
+.marketing-title{
+    color: #fff;
+    font-size: clamp(1.75rem, 1rem + 3vw, 3rem);
+}
+
+.marketing-description{
+    color: #fff;
+    line-height: 3.5rem;
+    font-size: clamp(.5rem, .5rem + 3vw, 1.2rem);
+}
+
+@media screen and (max-width: 568px){
+    .responsive-text{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .comodidades-responsive{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .texto-comodidade-responsive {
+        width: 300px;
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: translate(-70%, -50%);
+        box-sizing: border-box
+        
+    }
+}
+
+@media screen and (max-width: 992px){
+    .responsive-text{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .comodidades-responsive{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+}
+
+.title-comodidades{
+    color: #fff;
+}
+
+.texto-comodidade{
+    width: 600px;
+    position: relative;
+    left: 370px; 
+    color: #fff;
+    
+}
+
+.itens-comodidades{
+    color: #fff;
+}
