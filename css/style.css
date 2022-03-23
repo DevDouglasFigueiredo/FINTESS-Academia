@@ -1,10 +1,19 @@
 *{
     font-family: 'Merriweather', serif;
+    overflow-x: hidden;
 }
 
 
 .main-color{
     background: linear-gradient(rgb(87, 82, 82), rgb(8, 7, 7));
+}
+
+.secondary-color{
+    background-color: black;
+}
+
+.third-color{
+    background-color: silver;
 }
 
 
@@ -28,6 +37,7 @@
     font-size: 3.5rem;
     font-weight: bold;
     text-shadow: 0 0 10px rgb(0, 0, 0);
+    overflow-y: hidden;
 }
 
 .description-banner{
@@ -52,7 +62,7 @@
     font-size: clamp(.5rem, .5rem + 3vw, 1.2rem);
 }
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 468px){
     .responsive-text{
         display: flex;
         flex-direction: column;
@@ -69,12 +79,25 @@
     .texto-comodidade-responsive {
         width: 300px;
         position: relative;
-        top: 0;
-        right: 0;
-        transform: translate(-70%, -50%);
-        box-sizing: border-box
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        
+        margin-right: 3rem;
+        padding-left: 3rem;
+        padding-right: 4rem;
         
     }
+
+    .responsive-resgister{
+        flex-direction: column;
+    }
+
+    .responsive-input{
+        flex-direction: column;
+    }
+    
 }
 
 @media screen and (max-width: 992px){
@@ -90,20 +113,62 @@
         text-align: center;
         gap: 2rem;
     }
+
+
+    .texto-comodidade-responsive {
+        width: 300px;
+        position: relative;
+        transform: translate(-45%, -50%);
+    }
+
+    .texto-comodidade-responsive p {
+        padding-top: 2rem;
+    }
+
+    .responsive-resgister{
+        flex-direction: column;
+    }
+
+    .responsive-input{
+        flex-direction: column;
+    }
 }
 
-.title-comodidades{
-    color: #fff;
+.title-font{
+    color: silver;
 }
 
 .texto-comodidade{
     width: 600px;
     position: relative;
     left: 370px; 
-    color: #fff;
+    color: silver;
     
 }
 
 .itens-comodidades{
     color: #fff;
+}
+
+.color-review{
+    background: linear-gradient(to left, rgb(4, 12, 34), rgb(44, 39, 39),rgb(4, 12, 34));
+}
+
+.color-title-review{
+    color: silver;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+
+}
+
+.button:hover{
+    background-color: silver;
+    color: black;
+    transition: all ease-in-out .5s;
 }
