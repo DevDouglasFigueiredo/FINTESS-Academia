@@ -25,6 +25,20 @@
    filter: brightness(0.5);
 }
 
+.img-logo{
+    max-width: 100%;
+    object-fit: cover;
+    width: 70px;
+
+}
+
+.logo-footer{
+    max-width: 100%;
+    object-fit: cover;
+    width: 150px;
+
+}
+
 .img-banner-2{
     max-width: 100%;
     object-fit: cover;
@@ -62,7 +76,7 @@
     font-size: clamp(.5rem, .5rem + 3vw, 1.2rem);
 }
 
-@media screen and (max-width: 468px){
+@media screen and (max-width: 568px){
     .responsive-text{
         display: flex;
         flex-direction: column;
@@ -97,6 +111,12 @@
     .responsive-input{
         flex-direction: column;
     }
+
+    .footer-responsive{
+        gap: 2rem;
+        flex-direction: column;
+        
+    }
     
 }
 
@@ -130,6 +150,11 @@
     }
 
     .responsive-input{
+        flex-direction: column;
+    }
+
+    .footer-responsive{
+        gap: 2rem;
         flex-direction: column;
     }
 }
