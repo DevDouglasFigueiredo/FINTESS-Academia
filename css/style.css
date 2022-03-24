@@ -7,6 +7,7 @@
 
 .main-color{
     background: linear-gradient(rgb(87, 82, 82), rgb(8, 7, 7));
+    
 }
 
 .secondary-color{
@@ -69,6 +70,7 @@
 .marketing-title{
     color: #fff;
     font-size: clamp(1.75rem, 1rem + 3vw, 3rem);
+    
 }
 
 .marketing-description{
@@ -197,4 +199,8 @@
     background-color: silver;
     color: black;
     transition: all ease-in-out .5s;
+}
+
+.scrollReveal{
+    visibility: hidden;
 }
