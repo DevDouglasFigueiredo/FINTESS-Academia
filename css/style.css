@@ -27,6 +27,15 @@
    filter: brightness(0.5);
 }
 
+.img-banner-2{
+    max-width: 100%;
+    min-width: 300px;
+    object-fit: cover;
+    height: 523px;
+    min-height: 360px;
+    filter: brightness(0.9);
+}
+
 .img-logo{
     max-width: 100%;
     object-fit: cover;
@@ -41,12 +50,6 @@
 
 }
 
-.img-banner-2{
-    max-width: 100%;
-    object-fit: cover;
-    min-height: 360px;
-    filter: brightness(0.9);
-}
 
 .title-banner{
     color: #e6ac00;
