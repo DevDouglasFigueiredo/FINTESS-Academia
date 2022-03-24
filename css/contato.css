@@ -1,0 +1,48 @@
+
+form{
+    margin: 40px 0;
+
+}
+
+form label, form p{
+    display: block;
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 5px 20px;
+}
+
+.checkbox{
+    margin: 1em 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color:palegoldenrod;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button-form{
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.button-form:hover{
+    background-color: silver;
+    color: black;
+    transition: all ease-in-out .5s;
+}
