@@ -31,7 +31,7 @@
     max-width: 100%;
     min-width: 300px;
     object-fit: cover;
-    height: 523px;
+    max-height: 523px;
     min-height: 360px;
     filter: brightness(0.9);
 }
