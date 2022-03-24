@@ -7,7 +7,7 @@
 
 .main-color{
     background: linear-gradient(rgb(87, 82, 82), rgb(8, 7, 7));
-    
+
 }
 
 .secondary-color{
@@ -70,7 +70,7 @@
 .marketing-title{
     color: #fff;
     font-size: clamp(1.75rem, 1rem + 3vw, 3rem);
-    
+
 }
 
 .marketing-description{
@@ -94,17 +94,12 @@
     }
 
     .texto-comodidade-responsive {
-        width: 300px;
-        position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        box-sizing: border-box;
-        
-        margin-right: 3rem;
-        padding-left: 3rem;
-        padding-right: 4rem;
-        
+    margin-top: 2rem;
+    color: silver;
+
+
+
+
     }
 
     .responsive-resgister{
@@ -118,9 +113,9 @@
     .footer-responsive{
         gap: 2rem;
         flex-direction: column;
-        
+
     }
-    
+
 }
 
 @media screen and (max-width: 992px){
@@ -167,11 +162,12 @@
 }
 
 .texto-comodidade{
-    width: 600px;
-    position: relative;
-    left: 370px; 
-    color: silver;
+    margin-top: 1rem;
     
+    text-align: center;
+
+    color: silver;
+
 }
 
 .itens-comodidades{
