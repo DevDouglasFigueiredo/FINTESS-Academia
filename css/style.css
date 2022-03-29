@@ -23,7 +23,7 @@
    max-width: 100%;
    object-fit: cover;
    min-height: 360px;
-   max-height: 523px;
+   height: 523px;
    filter: brightness(0.5);
 }
 
@@ -31,7 +31,7 @@
     max-width: 100%;
     min-width: 300px;
     object-fit: cover;
-    max-height: 523px;
+    height: 523px;
     min-height: 360px;
     filter: brightness(0.9);
 }
